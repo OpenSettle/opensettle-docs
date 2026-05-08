@@ -1,13 +1,19 @@
 # opensettle-docs
 
-Public docs source for [OpenSettle](https://opensettle.io). The rendered
-site lives at [opensettle.io/docs](https://opensettle.io/docs); this repo
-holds the underlying source so:
+Public mirror of the [OpenSettle](https://opensettle.io) documentation
+hosted at [opensettle.io/docs](https://opensettle.io/docs).
 
-- developers can grep and pin specific revisions
-- pull requests for typos and clarifications can land here
-- search engines and downstream tools can crawl the canonical text
-- mirrors and translations have a stable upstream
+> **Status: this repo is currently a pointer, not a source.** The docs
+> are authored inside the (private) OpenSettle web app codebase. This
+> repo will track Markdown exports of every page once the export
+> pipeline lands, at which point it'll become useful for:
+>
+> - greppable, pinnable revisions
+> - PRs for typos and clarifications
+> - mirrors and translations with a stable upstream
+>
+> Until then, the live site at opensettle.io/docs is the authoritative
+> source. The page index below is current.
 
 ## What's documented
 
@@ -27,14 +33,6 @@ holds the underlying source so:
 | Errors | [opensettle.io/docs/errors](https://opensettle.io/docs/errors) |
 | Chains | [opensettle.io/docs/chains](https://opensettle.io/docs/chains) |
 | CLI | [opensettle.io/docs/cli](https://opensettle.io/docs/cli) |
-
-## Repo status
-
-The docs source is currently authored in the OpenSettle web application
-codebase (private). This repository will track Markdown exports of every
-docs page so the canonical text is publicly browsable and pull-requestable.
-The migration is in flight; until it lands, the live site is the
-authoritative source.
 
 ## Contributing
 
