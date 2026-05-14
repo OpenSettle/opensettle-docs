@@ -53,5 +53,5 @@ remix with attribution.
 Doc bugs are fine to file as public issues. **Security vulnerabilities in
 the OpenSettle platform itself** should not be filed publicly — see
 [security.txt](https://opensettle.io/.well-known/security.txt) or email
-[opensettle@proton.me](mailto:opensettle@proton.me). Disclosure policy at
+[OpenSettle@proton.me](mailto:OpenSettle@proton.me). Disclosure policy at
 [opensettle.io/security](https://opensettle.io/security).
