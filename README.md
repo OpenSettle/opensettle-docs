@@ -3,17 +3,25 @@
 Public mirror of the [OpenSettle](https://opensettle.io) documentation
 hosted at [opensettle.io/docs](https://opensettle.io/docs).
 
-> **Status: this repo is currently a pointer, not a source.** The docs
-> are authored inside the (private) OpenSettle web app codebase. This
-> repo will track Markdown exports of every page once the export
-> pipeline lands, at which point it'll become useful for:
->
-> - greppable, pinnable revisions
-> - PRs for typos and clarifications
-> - mirrors and translations with a stable upstream
->
-> Until then, the live site at opensettle.io/docs is the authoritative
+> **Status: this repo is a pointer, not a source.** The docs are authored
+> inside the (private) OpenSettle web app codebase. The live site at
+> [opensettle.io/docs](https://opensettle.io/docs) is the authoritative
 > source. The page index below is current.
+>
+> **Need plain Markdown?** Every page under `/docs/*` is served as
+> tokens-efficient Markdown by appending `.md` to the URL — e.g.
+> [opensettle.io/docs/quickstart.md](https://opensettle.io/docs/quickstart.md).
+> HTML responses also advertise the alternate via
+> `Link: <…md>; rel="alternate"; type="text/markdown"`. Use that for
+> LLM grounding, offline reading, and `curl`-friendly diffs.
+>
+> This repo exists so that:
+>
+> - typos and clarifications can be proposed as PRs (we hand-port
+>   accepted ones into the web codebase)
+> - issues for doc bugs have a public home separate from the
+>   product issue tracker
+> - the documentation surface has a discoverable presence on GitHub
 
 ## What's documented
 
@@ -21,17 +29,20 @@ hosted at [opensettle.io/docs](https://opensettle.io/docs).
 |---|---|
 | Getting started | [opensettle.io/docs](https://opensettle.io/docs) |
 | 5-minute quickstart | [opensettle.io/docs/quickstart](https://opensettle.io/docs/quickstart) |
+| Core concepts | [opensettle.io/docs/concepts](https://opensettle.io/docs/concepts) |
 | API reference | [opensettle.io/docs/api](https://opensettle.io/docs/api) |
 | Live API explorer | [api.opensettle.io/v1/docs](https://api.opensettle.io/v1/docs) |
 | OpenAPI spec | [api.opensettle.io/v1/openapi.json](https://api.opensettle.io/v1/openapi.json) · [github.com/OpenSettle/opensettle-openapi](https://github.com/OpenSettle/opensettle-openapi) |
 | SDK reference | [opensettle.io/docs/sdks](https://opensettle.io/docs/sdks) |
-| Webhooks | [opensettle.io/docs/webhooks](https://opensettle.io/docs/webhooks) |
+| Checkouts | [opensettle.io/docs/checkouts](https://opensettle.io/docs/checkouts) |
+| Invoices | [opensettle.io/docs/invoices](https://opensettle.io/docs/invoices) |
 | Subscriptions | [opensettle.io/docs/subscriptions](https://opensettle.io/docs/subscriptions) |
 | Refunds | [opensettle.io/docs/refunds](https://opensettle.io/docs/refunds) |
+| Webhooks | [opensettle.io/docs/webhooks](https://opensettle.io/docs/webhooks) |
 | Reconciliation | [opensettle.io/docs/reconciliation](https://opensettle.io/docs/reconciliation) |
-| Security posture | [opensettle.io/docs/security](https://opensettle.io/docs/security) |
 | Errors | [opensettle.io/docs/errors](https://opensettle.io/docs/errors) |
-| Chains | [opensettle.io/docs/chains](https://opensettle.io/docs/chains) |
+| Chains (Base, Ethereum, Polygon, Arbitrum, Tron, Solana) | [opensettle.io/docs/chains](https://opensettle.io/docs/chains) |
+| Security posture | [opensettle.io/docs/security](https://opensettle.io/docs/security) |
 | CLI | [opensettle.io/docs/cli](https://opensettle.io/docs/cli) |
 
 ## Contributing
