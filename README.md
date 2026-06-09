@@ -42,6 +42,7 @@ hosted at [opensettle.io/docs](https://opensettle.io/docs).
 | Reconciliation | [opensettle.io/docs/reconciliation](https://opensettle.io/docs/reconciliation) |
 | Errors | [opensettle.io/docs/errors](https://opensettle.io/docs/errors) |
 | Chains (Base, Ethereum, Polygon, Arbitrum, Tron, Solana) | [opensettle.io/docs/chains](https://opensettle.io/docs/chains) |
+| Wallet compatibility | [opensettle.io/docs/wallets](https://opensettle.io/docs/wallets) |
 | Security posture | [opensettle.io/docs/security](https://opensettle.io/docs/security) |
 | CLI | [opensettle.io/docs/cli](https://opensettle.io/docs/cli) |
 
